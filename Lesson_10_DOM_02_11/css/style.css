@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.panel {
+  position: fixed;
+  display: flex;
+  width: 40px;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: lightsteelblue;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  cursor: pointer;
+}
+
+.button-select {
+  background-image: url(../images/border.png);
+}
+.button-text {
+  background-image: url(../images/text.png);
+}
+
+.button_active {
+  background-color: slategray;
+}
+
+.selection {
+  position: fixed;
+  border: 1px solid darkblue;
+  z-index: 1;
+}
+
+.circle-handler {
+  border: 1px solid darkblue;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  padding: 15px;
+  background-color: white;
+}
+
+.modal-header {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  width: 300px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.button-close {
+  background-image: url(../images/close.png);
+}
+.button-image {
+  background-image: url(../images/image.png);
+}
+
+.button-small {
+  width: 20px;
+  height: 20px;
+  background-size: 12.5px 12.5px;
+}
+
+.upload_form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+.upload_form_input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+.btn {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}

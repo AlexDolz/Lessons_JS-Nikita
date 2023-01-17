@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.black {
+  background-color: black;
+}
+.brown {
+  background-color: brown;
+}
+
+.parent {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.child {
+  flex-basis: 100px;
+}
+
+/* .child1 {
+  flex-grow: 1;
+}
+.child2 {
+  flex-grow: 3;
+}
+.child3 {
+  flex-grow: 9;
+} */
